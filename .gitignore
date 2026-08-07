@@ -30,5 +30,5 @@ bin/
 .DS_Store
 
 .idea
-/JavaProject01.iml/
+JavaProject01.iml
 /External Libraries/
