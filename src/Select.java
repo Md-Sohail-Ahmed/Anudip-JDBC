@@ -2,9 +2,9 @@ import java.sql.*;
 
 public class Select {
     public static void main(String[] args) {
-        String sqlUrl="jdbc:mysql://localhost:3306/jdbcFirstProject";
-        String userName="root";
-        String password="sohail@25017";
+        String sqlUrl="";
+        String userName="";
+        String password="";
 
         try(Connection c= DriverManager.getConnection(sqlUrl,userName,password); Statement s=c.createStatement()){
 
