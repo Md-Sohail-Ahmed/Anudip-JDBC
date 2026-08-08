@@ -5,9 +5,9 @@ import java.sql.Statement;
 
 public class Collage {
     public static void main(String[] args) {
-        String jdbcUrl="jdbc:mysql://localhost:3306/college";
-        String userName="root";
-        String password="sohail@25017";
+        String jdbcUrl="";
+        String userName="";
+        String password="";
 
         try {
             Connection connection = DriverManager.getConnection(jdbcUrl,userName,password);
