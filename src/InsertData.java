@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 public class InsertData {
     public static void main(String[] args) {
-        String jdbcUrl="jdbc:mysql://localhost:3306/college";
+        String jdbcUrl="jdbc:mysql://localhost:3306/jdbcFirstProject";
         String userName="root";
         String password="sohail@25017";
 
@@ -13,7 +13,7 @@ public class InsertData {
             Connection connection = DriverManager.getConnection(jdbcUrl,userName,password);
             Statement s=connection.createStatement();
 
-            s.executeUpdate("INSERT INTO Students (id,name,age,class) VALUES(1,'sohail',23,'CSE-B'),(2,'mayur',22,'CSE-B'),(3,'surajit',22,'CSE-C');");
+            s.executeUpdate("INSERT INTO employee (id,name,email) VALUES(2,'mayur','mayur@gmail.com'),(3,'surajit','surajit@gmail.com');");
 
             System.out.println("Data inserted");
 
